@@ -137,7 +137,7 @@ p{
 .btn{
     display: inline-block;
     font-size: 18px;
-    color: darkred;
+    color: #ff0000;
     background: black;
     padding: 13px 20px;
     border: none;
@@ -145,7 +145,7 @@ p{
 }
 
 .btn:hover{
-    background: burlywood;
+    background: #7a7a7a;
     color: black;
 }
 
