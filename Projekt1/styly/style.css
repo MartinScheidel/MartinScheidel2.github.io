@@ -196,15 +196,17 @@ p{
 
 #about-info .info-right img{
     display: block;
-    margin: 0 0 0 80px;
+    margin: 0 0 0 30px;
     width: 90%;
     padding-left: 100px;
+    padding-top: 80px;
 }
 
 #about-info .info-left{
     float: left;
-    width: 50%;
+    width: 30%;
     min-height: 100%;
+    font-size: larger;
 }
 
 /*testimonials*/
@@ -243,28 +245,31 @@ p{
 
 /*contect-form*/
 
-#contact-form .form-group{
+#contact-form .form-group {
     margin-bottom: 20px;
 }
-
-#contact-form label{
+#contact-form label {
     display: block;
     margin-bottom: 5px;
 }
-
 #contact-form input,
-#contact-form textarea{
+#contact-form textarea {
     width: 100%;
-    padding: 100px;
-    border: 1px dimgrey solid;
+    padding: 10px;
+    border: 1px #ddd solid;
 }
-
-#contact-form textarea{
+#contact-form textarea {
     height: 200px;
+    padding: 10px;
+}
+#contact-form input:focus,
+#contact-form textarea:focus {
+    outline: none;
+    border-color: cornflowerblue;
 }
 
-#contact-form input:focus,
-#contact-form textarea:focus{
-    outline: none;
-    border-color: darkred;
+
+.containerradek {
+    overflow: auto;
+    padding: 0 190px 0 0;
 }
