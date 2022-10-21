@@ -1,11 +1,15 @@
 /*index*/
+header {
+    text-align: center;
+    align-content: center;
+}
 
 #navbar .logo{
     float: none;
     text-align: center;
 }
 
-#navbar ul li{
+#navbar ul, #navbar ul li{
     float: none;
 }
 
